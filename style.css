@@ -273,7 +273,7 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
-/*end slide show
+end slide show
 /*footer */
 /* footer {
         background-color: #333;
@@ -297,4 +297,4 @@ img {vertical-align: middle;}
         color: #fff;
         text-decoration: none;
         text-align: center;
-    } */
+    }
