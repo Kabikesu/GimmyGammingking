@@ -27,7 +27,7 @@ function showSlides() {
     slideIndex = 1;
   }
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 2000); // Change slide every 2 seconds (adjust as needed)
+  setTimeout(showSlides, 8000); // Change slide every 2 seconds (adjust as needed)
 }
 
 
