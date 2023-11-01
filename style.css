@@ -184,6 +184,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+    animation: scroll 6s linear infinite;
 }
 
 /* Next & previous buttons */
@@ -261,7 +262,7 @@ img {vertical-align: middle;}
 
 }
 @keyframes scroll {
-  1% {
+  0% {
     transform: translateX(0);
   }
   100% {
@@ -272,7 +273,11 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+
+.mySlides {
+    width:100%;
 }
+    }
 end slide show
 /*footer */
 /* footer {
