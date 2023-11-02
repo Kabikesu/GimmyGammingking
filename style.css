@@ -152,8 +152,8 @@ pointer-events: none;
     -ms-transform: translate(-50%, -50%);
     background:transparent;
     color: white;
-    font-size: 16px; /* Set a fixed font size for the text */
-    padding: 12px 24px;
+    font-size: auto; /* Set a fixed font size for the text */
+    padding: 1rem 2rem;
     border: none;
     cursor: pointer;
     border-radius: 5px;
