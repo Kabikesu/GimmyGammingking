@@ -166,11 +166,8 @@ h2 {
   background-color: lightgrey;
   width: 70%;
   border: 5px solid rgb(115, 124, 115);
-  padding: 20px;
-  margin: 20px;
-  transition: transform 0.2s;
-  text-align: center;
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
+  
   /* Add styles for your h2 elements */
 }
 h2:hover{
@@ -178,8 +175,19 @@ h2:hover{
   box-shadow: 10px 10px 20px rgba(23, 231, 75, 0.7);
 }
 ul {
+    background-color: lightgrey;
+  width: 100%;
+  border: 5px solid rgb(115, 124, 115);
+  padding: 2px;
+  margin: 20px;
+  transition: transform 0.2s;
+  text-align: center;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   list-style: none;
-  padding: 0;
+}
+ul:hover{
+    transform: scale(1.05);
+  box-shadow: 10px 10px 20px rgba(23, 231, 75, 0.7);
 }
 
 li {
