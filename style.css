@@ -96,13 +96,13 @@ pointer-events: none;
 }
 .parallax img#gate-left {
     position: fixed;
-    transform: translateX(-285px);
+    transform: translateX(-300px);
     overflow: hidden;
 
 }
 .parallax img#gate-right {
     position: fixed;
-    transform: translateX(298px);
+    transform: translateX(315px);
     overflow: hidden;
     
 }
