@@ -128,42 +128,40 @@ pointer-events: none;
 /*button */
 .button {
     flex: 1;
-    position: relative;
-    max-width: calc(100% -20px);
+    max-width: calc(50% -20px);
     margin: 5px;
     border: none;
     text-align: center;
     align-items: center;
     justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
   }
+  
   
   /* Make the image responsive */
   .button img {
-    width: 100%;
+    max-width:100%;
     height: auto;
   }
 
   /* Style the button and place it in the middle of the container/image */
   .button .btn {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background:transparent;
+   background: transparent;
     color: white;
-    font-size: auto; /* Set a fixed font size for the text */
-    padding: 1rem 2rem;
+    font-size: 16px;
+    padding: 10px 20px;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
+    display:inline-block;
+    margin-top: -60px; /* Add some space between the image and button */
+    margin-bottom: -50px;
   }
   
   .button .btn:hover {  
     background-color:transparent;
-    display: flex;
     
   }
   .button-container {
@@ -172,6 +170,9 @@ pointer-events: none;
     flex-wrap:wrap;
     
   }
+@media(max-width:767px){
+    .button {
+      max-width: 100%;
 
   /*silde show container */
   * {box-sizing: border-box}
