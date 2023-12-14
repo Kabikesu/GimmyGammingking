@@ -106,6 +106,25 @@ pointer-events: none;
     overflow: hidden;
     
 }
+/* news bar */
+#news-ticker {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+@keyframes news-scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
 .sec {
     position: relative;
     background: url(background.png);
