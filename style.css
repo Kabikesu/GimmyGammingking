@@ -156,6 +156,7 @@ pointer-events: none;
     display: flex;
     flex-direction: column;
     padding: 10px;
+    border-radius: 50px; 
   }
   
   
@@ -177,6 +178,7 @@ pointer-events: none;
     display:inline-block;
     margin-top: -60px; /* Add some space between the image and button */
     margin-bottom: -50px;
+      
   }
   
   .button .btn:hover {  
@@ -185,7 +187,7 @@ pointer-events: none;
   }
   .button-container {
     display:flex; /* Use flexbox to arrange buttons horizontally */
-    justify-content: space-between; /* Spread buttons evenly within the container */
+    justify-content: center ; /* Spread buttons evenly within the container */
     flex-wrap:wrap;
     
   }
