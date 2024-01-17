@@ -12,7 +12,7 @@ body {
   }
   
   .column {
-    float: Center;
+    float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
